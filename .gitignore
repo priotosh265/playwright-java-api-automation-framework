@@ -1,0 +1,32 @@
+# Compiled class files & build artifacts
+target/
+*.class
+
+# Log files
+*.log
+
+# Playwright artifacts
+test-results/
+playwright-report/
+blob-report/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# OS specific files
+.DS_Store
+Thumbs.db
