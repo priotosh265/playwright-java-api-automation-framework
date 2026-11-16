@@ -1,0 +1,38 @@
+{
+  "validUser": {
+    "email": "playwright_api_test@testuser.com",
+    "password": "TestPassword123"
+  },
+  "invalidUser": {
+    "email": "nonexistent_playwright_user_9999@example.com",
+    "password": "wrongPasswordXYZ"
+  },
+  "missingPasswordUser": {
+    "email": "missingpassword@example.com",
+    "password": ""
+  },
+  "missingEmailUser": {
+    "email": "",
+    "password": "Password123!"
+  },
+  "newUserRegistration": {
+    "name": "Playwright Tester",
+    "emailPrefix": "playwright_test_",
+    "emailDomain": "@example.com",
+    "password": "Password123!",
+    "title": "Mr",
+    "birth_date": "15",
+    "birth_month": "08",
+    "birth_year": "1995",
+    "firstname": "Playwright",
+    "lastname": "Tester",
+    "company": "Automation QA Org",
+    "address1": "100 Innovation Blvd",
+    "address2": "Suite 400",
+    "country": "United States",
+    "zipcode": "90210",
+    "state": "California",
+    "city": "Los Angeles",
+    "mobile_number": "1234567890"
+  }
+}
